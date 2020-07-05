@@ -17,7 +17,7 @@ cssselect==1.1.0
 cycler==0.10.0
 decorator==4.4.1
 defusedxml==0.6.0
-Django==3.0.4
+Django==3.0.7
 django-crispy-forms==1.9.1
 docutils==0.15.2
 entrypoints==0.3
