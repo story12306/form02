@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+        <div class="right">
+            <div class="location">
+                <strong>你现在所在的位置是:</strong>
+                <span>信息管理页面</span>
+            </div>
+            <!--用户-->
+
+            <form class="form01" action="{% url 'modify' %}" method="post" enctype="multipart/form-data">
+                <div class="from02"><span></span></div>
+                <div class="from02"><span>封面：<input type="file" name="logo" id="logo"></span></div>
+                <div class="from02"><span>书名：<input type="text" name="bname"></span></div>
+                <div class="from02"><span>作者：<input type="text" name="author"></span></div>
+                <div class="from02"><span>分类：<input type="text" name="fenlei"></span></div>
+                <div class="from02"><span>详情：<input type="text" name="details"></span></div>
+                <div class="from02"><span><button type="submit" class="button">提交</button></span></div>
+            </form>
+        </div>
+{% endblock %}

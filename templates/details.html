@@ -1,0 +1,26 @@
+﻿{% extends 'base.html' %}
+{% block content %}
+        <div class="right">
+            <div class="location">
+                <strong>你现在所在的位置是:</strong>
+                <span>信息管理页面</span>
+            </div>
+            <!--用户-->
+
+            <div class="form">
+	            {% for foo in book %}
+                    <div class="from01"><span><img src="{{ MEDIA_URL }}{{ foo.logo }}" alt=""></span></div>
+                    <div class="from01"><span>书名：{{ foo.bname }}</span></div>
+                    <div class="from01"><span>作者：{{ foo.author }}</span></div>
+                    <div class="from01"><span>分类：{{ foo.fenlei }}</span></div>
+                    <div class="from01"><span>发布时间：{{ foo.addtime }}</span></div>
+                    <div class="from01"><span>描述：{{ foo.content }}</span></div>
+                    <div class="from01"><span><a href="#" class="form01">小说章节链接</a></span></div>
+
+	            {% endfor %}
+
+            </div>
+        </div>
+{% endblock %}
+
+
