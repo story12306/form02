@@ -107,7 +107,7 @@ tk==0.1.0
 tkinter-nav==0.0.5
 tornado==6.0.3
 traitlets==4.3.3
-Twisted==19.10.0
+Twisted==22.4.0
 urllib3==1.25.7
 userprofile==0.2.5
 virtualenv==16.7.9
