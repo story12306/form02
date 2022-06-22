@@ -47,7 +47,7 @@ mysqlclient==1.4.6
 nbconvert==5.6.1
 nbformat==4.4.0
 notebook==6.0.2
-numpy==1.17.4
+numpy==1.22.0
 oauthlib==3.1.0
 pandas==0.25.3
 Pandas-Data-Exploration-Utility-Package==0.0.3
