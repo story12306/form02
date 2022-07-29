@@ -41,7 +41,7 @@ labelme==4.5.4
 lxml==4.4.2
 MarkupSafe==1.1.1
 matplotlib==3.2.2
-mistune==0.8.4
+mistune==2.0.3
 more-itertools==8.0.2
 mysqlclient==1.4.6
 nbconvert==5.6.1
